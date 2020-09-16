@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
     res.send("hello there welcome to my page");
 })
 
-const server = app.listen(8080, ()=>{console.log('listening')});
+const server = app.listen(process.env.PORT, ()=>{console.log(`listening on ${process.env.PORT}`)});

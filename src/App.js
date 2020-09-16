@@ -29,9 +29,9 @@ class App extends React.Component {
             <img className = "linearImage" width = "100%" src = "image3.png" alt = "image" />
             <h2 id = "contact"><strong><i>Ways</i></strong> to contact me</h2>
             <p> you can contact me on these amazing platforms: </p>
-            <img className = "circularImage" width  = "64px" src = "icon1.png" alt = "image" />
-            <img className = "circularImage" width  = "64px" src = "icon2.png" alt = "image" />
-            <img className = "circularImage" width  = "64px" src = "icon3.png" alt = "image" />
+            <a href = "https://www.instagram.com/ameer.ca/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon1.png" alt = "image" /></a>
+            <a href = "https://www.linkedin.com/in/amirali-moin-74b285138/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon2.png" alt = "image" /></a>
+            <a href = "https://www.twitter.com/bornoncanadaday/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon3.png" alt = "image" /></a>
             <footer><p className = "footer">&copy;Amirali Moin 2020 Creation. all rights reserved. </p></footer>
         </div>
         </>;
