@@ -29,7 +29,10 @@ class App extends React.Component {
             <img className = "linearImage" width = "100%" src = "image3.png" alt = "image" />
             <h2 id = "contact"><strong><i>Ways</i></strong> to contact me</h2>
             <p> you can contact me on these amazing platforms: </p>
-            <img className = "linearImage" width  = "100%" src = "image4.png" alt = "image" />
+            <img className = "circularImage" width  = "64px" src = "icon1.png" alt = "image" />
+            <img className = "circularImage" width  = "64px" src = "icon2.png" alt = "image" />
+            <img className = "circularImage" width  = "64px" src = "icon3.png" alt = "image" />
+            <footer><p className = "footer">&copy;Amirali Moin 2020 Creation. all rights reserved. </p></footer>
         </div>
         </>;
     }
