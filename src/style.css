@@ -127,9 +127,10 @@ h2{
 
   @media only screen and (max-width: 599px) {
     .nav li {
-      font-size: 10px; 
+      font-size: 11px; 
       margin-left: 0.5%;
       margin-right: 0.5%; 
+      padding: 7px 10px;
     }
 
     h1{
