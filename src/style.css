@@ -4,15 +4,36 @@ html, body{
     background-color: azure;
     color: #614051;
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: Georgia, serif;
 }
 
 
 
 .wrapper{
     margin-left: 10%;
-    width: 80%;
-    
+    width: 80%;    
+}
+
+h2{
+  transition-duration: 0.5s;
+  font-family: Georgia, serif;
+}
+
+h2:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.02)
+}
+
+.para{
+  text-align: left;
+  font-size: large;
+  transition-duration: 0.5s;
+  transform: scale(1);
+}
+
+.para:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.02);
 }
 
 .circularImage{
@@ -31,10 +52,19 @@ html, body{
 .linearImage{
     margin-top: 1%;
     margin-bottom: 5%;
+    transition-duration: 0.5s;
 }
 
+.linearImage:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.02)
+}
+
+
 .nav{
+    position: relative;
     list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -52,6 +82,24 @@ html, body{
     transition-duration: 0.5s;
 }
 
+.inParagraphA{
+  transition-duration: 0.25s;
+  color: #614051;
+}
+
+.inParagraphA:visited{
+  transition-duration: 0.25s;
+  color: #614051;
+}
+
+.inParagraphA:hover{
+    padding: 2px 2px;
+    background-color: #217498;
+    color: azure;
+    transition-duration: 0.25s;
+    border-radius: 5%;
+}
+
 .nav li:hover{
     background-color: #217498;
     font-size: 18px;
@@ -64,15 +112,9 @@ html, body{
     color: azure;
 }
 
-h2{
-    text-align: left;
-    margin-left: 1.5%;
-    font-family: Georgia, serif;
-}
-
 .footer{
   font-size: 10px;
-  margin-bottom: 3%;
+  padding-bottom: 4%;
   margin-top: 3%;
 }
 
