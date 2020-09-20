@@ -10,12 +10,12 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.get('/favicon.ico', (req, res) => {
-    res.status(204).end();
+    res.status(503).end();
 });
 
 
 app.get('/', (req, res) => {
-    res.status(204).end();
+    res.status(503).end();
 });
 
 
