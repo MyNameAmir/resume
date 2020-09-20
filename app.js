@@ -9,9 +9,15 @@ const comments = require('./models/comments');
 app.use(express.static("public"));
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.send("hello there welcome to my page");
-})
+app.get('/favicon.ico', (req, res) => {
+    res.status(204).end();
+});
+
+
+app.get('/', (req, res) => {
+    res.status(204).end();
+});
+
 
 app.post('/amirComments', (req,res)=>{
     
