@@ -43,8 +43,8 @@ class App extends React.Component {
             enjoyed my work so far!</p>
             <img className = "linearImage" width = "100%" src = "image2.png" alt = "image" />
             <h2 id = "future"><strong><i>A</i></strong> little bit about my future prospects</h2>
-            <p className = "para">In the near future I hope to be able to find work as a web developer, if it is front-end, back-end or full-stack. My 
-            goal as always is to learn more and more and by getting employed and being in an all web development setting would be ideal to me as I am passionate
+            <p className = "para">In the near future I hope to be able to find work as a web developer, if it is front-end, back-end or full-stack. Having worked in the educational
+            field of development and computer science, I am eager to make the jump to complete work in the industry. My goal as always is to learn more and more and by getting employed and being in an all web development setting would be ideal to me as I am passionate
             about web development and programming. I would also love to connect with others passionate about everything web dev so if you are also 
             a web dev head like me, connect with me through my links in the <a className = "inParagraphA" href = "#contact">contact</a> section. Would love to meet more people and network!</p>
             <img className = "linearImage" width = "100%" src = "image3.png" alt = "image" />

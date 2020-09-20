@@ -25,7 +25,8 @@ h2:hover{
 }
 
 .para{
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   font-size: large;
   transition-duration: 0.5s;
   transform: scale(1);
