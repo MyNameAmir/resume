@@ -1,16 +1,37 @@
 // App.js
 import React from 'react';
-/*
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vestibulum sapien ligula, eleifend in interdum vel, eleifend at ante. Suspendisse sit amet 
-            convallis nulla. Nullam nec orci non orci laoreet tristique. Etiam tortor est, egestas rhoncus elementum at, 
-            ornare vitae tortor. Nam nisl risus, tempor in euismod id, tempor at nulla. Morbi a orci eu neque molestie sagittis. 
-            Morbi rutrum ac massa eget ultrices. Cras sed fringilla orci, tempus tristique ligula.
-*/
+import axios from 'axios';
 
 // Random facts About Numbers App
 class App extends React.Component {
     // event handler for choosing a number
+    constructor(props){
+        super(props);
+        this.state = {
+            comment : ""
+        }
+
+        this.handleCommentSubmit = this.handleCommentSubmit.bind(this);
+        this.handleCommentChange = this.handleCommentChange.bind(this);
+    }
+            
+    handleCommentChange(event) {
+        this.setState({comment: event.target.value});
+    }
+
+    handleCommentSubmit(event){
+        event.preventDefault();
+        let newComment = {
+            comment: this.state.comment
+        }
+        
+        axios.post("/amirComments", newComment)
+        .then(results => {
+            console.log(newComment);
+        })
+        .catch(error=>{this.setState({commentSuccessMessage: `comment was not submitted due to ${error}`})});
+        
+    }
    
     render() {
         return <>
@@ -49,10 +70,22 @@ class App extends React.Component {
             a web dev head like me, connect with me through my links in the <a className = "inParagraphA" href = "#contact">contact</a> section. Would love to meet more people and network!</p>
             <img className = "linearImage" width = "100%" src = "image3.png" alt = "image" />
             <h2 id = "contact"><strong><i>Ways</i></strong> to contact me</h2>
-            <p className = "para"> you can contact me on these amazing platforms: </p>
+            <p className = "para"> you can contact me on these amazing platforms or leave a comment down below: </p>
             <a href = "https://www.instagram.com/ameer.ca/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon1.png" alt = "image" /></a>
             <a href = "https://www.linkedin.com/in/amirali-moin-74b285138/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon2.png" alt = "image" /></a>
             <a href = "https://www.twitter.com/bornoncanadaday/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon3.png" alt = "image" /></a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <form onSubmit={this.handleCommentSubmit}>
+            
+                <label> Submit a comment: </label>
+                <br></br>
+                <textarea placeholder = "type any comment here..." onChange={this.handleCommentChange} value={this.state.comment} name="comment" cols = "40"></textarea>
+                <br></br>
+                <input type='submit' value='Submit comment' />
+            </form>
+
             <footer><p className = "footer">&copy;Amirali Moin 2020 Creation. all rights reserved. </p></footer>
         </div>
         </>;
