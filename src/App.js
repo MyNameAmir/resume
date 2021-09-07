@@ -1,8 +1,8 @@
-// App.js
+
 import React from 'react';
 import axios from 'axios';
 
-// Random facts About Numbers App
+
 class App extends React.Component {
     // event handler for choosing a number
     constructor(props){
