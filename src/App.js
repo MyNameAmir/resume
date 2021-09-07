@@ -4,7 +4,6 @@ import axios from 'axios';
 
 
 class App extends React.Component {
-    // event handler for choosing a number
     constructor(props){
         super(props);
         this.state = {
