@@ -12,6 +12,13 @@ html, body{
     width: 80%;    
 }
 
+h1:hover{
+  transition-duration: 0.5s;
+  transform: scale(1.02);
+  background-color: navajowhite;
+  cursor: default;
+}
+
 h2{
   transition-duration: 0.5s;
   font-family: Georgia, serif;
@@ -19,7 +26,9 @@ h2{
 
 h2:hover{
   transition-duration: 0.5s;
-  transform: scale(1.02)
+  transform: scale(1.02);
+  background-color: navajowhite;
+  cursor: default;
 }
 
 .para{
@@ -32,6 +41,8 @@ h2:hover{
 .para:hover{
   transition-duration: 0.5s;
   transform: scale(1.02);
+  background-color: navajowhite;
+  cursor: default;
 }
 
 .circularImage{
@@ -45,6 +56,8 @@ h2:hover{
 .circularImage:hover{
   transition-duration: 0.5s;
   transform: scale(1.15);
+  background-color: navajowhite;
+  cursor: default;
 }
 
 .linearImage{
@@ -55,7 +68,9 @@ h2:hover{
 
 .linearImage:hover{
   transition-duration: 0.5s;
-  transform: scale(1.02)
+  transform: scale(1.02);
+  background-color: navajowhite;
+  cursor: default;
 }
 
 
@@ -96,12 +111,14 @@ h2:hover{
     color: azure;
     transition-duration: 0.25s;
     border-radius: 5%;
+    cursor: default;
 }
 
 .nav li:hover{
     background-color: #217498;
     font-size: 18px;
     transition-duration: 0.5s;
+    cursor: default;
 }
 
 .nav li a{

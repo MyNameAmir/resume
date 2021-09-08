@@ -1,7 +1,6 @@
-
+// App.js
 import React from 'react';
 import axios from 'axios';
-
 
 class App extends React.Component {
     constructor(props){
@@ -67,12 +66,13 @@ class App extends React.Component {
             single page app also uses Node.js as the back end and a react framework for the front end with MongoDB database capabilities. The purpose of this app is to have a blank canvas at the start and to have the 
             visitors of the page leave comments on the wall with various fonts and sizes and colours (just like how you would grafitti on a wall, but legal this time!). I hope you 
             enjoyed my work so far!</p>
-            <img className = "linearImage" width = "100%" src = "image6.png" alt = "image" />
+            <img className = "linearImage" width = "100%" src = "image2.png" alt = "image" />
+            
             <p className = "para"><strong>Third</strong> work I would like to talk to you about is my <a className = "inParagraphA" href = "https://tasks-manager2.herokuapp.com/" target ="_blank">task manager</a> page. This
             single page app also uses Node.js as the back end and a react framework for the front end with bootstrap as the main styling component. The purpose of this app is that the users
             can manage and track any tasks that they encounter daily and each user can manage their own persons on this app and assign tasks to them. And you can remove tasks on this app 
             once a task is achieved.</p>
-            <img className = "linearImage" width = "100%" src = "image2.png" alt = "image" />
+            <img className = "linearImage" width = "100%" src = "image6.png" alt = "image" />
             <h2 id = "future"><strong><i>A</i></strong> little bit about my future prospects</h2>
             <p className = "para">In the near future I hope to be able to find work as a web developer, if it is front-end, back-end or full-stack. Having worked in the educational
             field of development and computer science, I am eager to make the jump to complete work in the industry. My goal as always is to learn more and more and by getting employed and being in an all web development setting would be ideal to me as I am passionate
