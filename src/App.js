@@ -91,7 +91,7 @@ class App extends React.Component {
             
                 <label> Submit a comment: </label>
                 <br></br>
-                <textarea placeholder = "type any comment here..." onChange={this.handleCommentChange} value={this.state.comment} name="comment" cols = "40"></textarea>
+                <textarea className="comment" placeholder = "type any comment here..." onChange={this.handleCommentChange} value={this.state.comment} name="comment" cols = "40"></textarea>
                 <br></br>
                 <input type='submit' value='Submit comment' />
             </form>
