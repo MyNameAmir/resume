@@ -80,7 +80,7 @@ class App extends React.Component {
             a web dev head like me, connect with me through my links in the <a className = "inParagraphA" href = "#contact">contact</a> section. Would love to meet more people and network!</p>
             <img className = "linearImage" width = "100%" src = "image3.png" alt = "image" />
             <h2 id = "contact"><strong><i>Ways</i></strong> to contact me</h2>
-            <p className = "para"> you can contact me on these amazing platforms or leave a comment down below: </p>
+            <p className = "para" id="footerP"> you can contact me on these amazing platforms or leave a comment down below: </p>
             <a href = "https://www.instagram.com/ameer.ca/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon1.png" alt = "image" /></a>
             <a href = "https://www.linkedin.com/in/amirali-moin-74b285138/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon2.png" alt = "image" /></a>
             <a href = "https://www.twitter.com/bornoncanadaday/" target = "_blank"><img className = "circularImage" width  = "64px" src = "icon3.png" alt = "image" /></a>
@@ -96,7 +96,7 @@ class App extends React.Component {
                 <input type='submit' value='Submit comment' />
             </form>
             <h3>{this.state.commentSuccessMessage}</h3>
-            <footer><p className = "footer">&copy;Amirali Moin 2020 Creation. all rights reserved. </p></footer>
+            <footer><p className = "footer">&copy;Amirali Moin 2021 Creation. all rights reserved. </p></footer>
         </div>
         </>;
     }
