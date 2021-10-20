@@ -141,6 +141,25 @@ h2:hover{
   width: 100%;
 }
 
+.SubmitButton{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: peachpuff;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-color: #614051;
+  border-radius: 5%;
+  padding: 7px 10px;
+  margin-bottom: 4%;
+  transition-duration: 0.5s;
+}
+
+.SubmitButton:hover{
+  background-color: #217498;
+  transform: scale(1.02);
+}
+
 @media only screen and (max-width: 1168px) {
     .nav li {
       margin-left: 4%;
