@@ -93,7 +93,7 @@ class App extends React.Component {
                 <br></br>
                 <textarea className="comment" placeholder = "type any comment here..." onChange={this.handleCommentChange} value={this.state.comment} name="comment" cols = "40"></textarea>
                 <br></br>
-                <input type='submit' value='Submit comment' />
+                <input className="SubmitButton" type='submit' value='Submit comment' />
             </form>
             <h3>{this.state.commentSuccessMessage}</h3>
             <footer><p className = "footer">&copy;Amirali Moin 2021 Creation. all rights reserved. </p></footer>
