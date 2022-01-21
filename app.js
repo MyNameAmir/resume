@@ -36,8 +36,8 @@ app.post('/amirComments', (req,res)=>{
     db.once('open', ()=>{
         
     console.log('connected to db');
-        
-    const server = app.listen(process.env.PORT, ()=>{
+        //process.env.PORT
+    const server = app.listen(8080, ()=>{
         console.log('listening on 8080');
     });
 });
