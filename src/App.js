@@ -103,7 +103,7 @@ class App extends React.Component {
                         <input className="SubmitButton" type='submit' value='Submit comment' />
                     </form>
                     <h3>{this.state.commentSuccessMessage}</h3>
-                    <footer><p className="footer">&copy;Amirali Moin 2021 Creation. all rights reserved. </p></footer>
+                    <footer><p className="footer">&copy;Amirali Moin 2022 Creation. all rights reserved. </p></footer>
                 </div>
             </div>
         </>;
