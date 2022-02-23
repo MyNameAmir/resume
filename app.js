@@ -33,7 +33,7 @@ app.post('/amirComments', (req,res)=>{
     
 });
 
-    db.once('open', ()=>{
+db.once('open', ()=>{
         
     console.log('connected to db');
         //process.env.PORT

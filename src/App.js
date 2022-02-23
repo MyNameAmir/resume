@@ -42,18 +42,18 @@ class App extends React.Component {
             <div className="wrapper">
                 <div id="navigation">
                     <ul className="nav">
-                        <li><a href="#top">home</a></li>
-                        <li><a href="#about">about me</a></li>
-                        <li><a href="#work">my work</a></li>
-                        <li><a href="#future">future</a></li>
-                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#future">Future</a></li>
+                        <li id="contactA"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div id="everythingElse">
-                    <div className="intro">
+                    <div className="intro" id="top">
                         <div id="restOfIntro">
                             <img className="circularImage" width="120px" height="120px" src="amir.png" alt="main image" />
-                            <h1 id="top"> 🌠🖥 Amir Moin ⌨️📱 </h1>
+                            <h1>Amir Moin</h1>
                         </div>
                     </div>
                     <h2 id="about"><strong><i>A</i></strong> little bit about myself</h2>

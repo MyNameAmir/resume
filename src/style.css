@@ -5,6 +5,8 @@ html, body{
     color: #614051;
     text-align: center;
     font-family: Georgia, serif;
+    margin: 0%;
+    scroll-behavior: smooth;
 }
 
 .wrapper{
@@ -13,23 +15,31 @@ html, body{
   align-items: stretch;
   align-content: space-between;
   justify-content: center;  
+  width: 100%;
+  left: 0%;
 }
 
 .intro{
   height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: stretch;
 }
 
 .nav{
   display: grid;
   align-content: stretch;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: stretch;
   justify-items: stretch;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .circularImage{
-  margin-top: 1%;
   border-radius: 50%;
   margin-right: 5%;
   margin-left: 5%;
@@ -45,7 +55,9 @@ cursor: default;
 
 
 #navigation{
+  width: 12%;
   position: fixed;
+  background-color: rgb(97, 64, 81);
   left: 0%;
   display: inline-grid;
   float: left;
@@ -54,42 +66,25 @@ cursor: default;
   margin: 0;
   padding: 0;
   height: 100vh;
-  align-content: space-evenly;
-  align-items: center;
+  align-content: stretch;
+  align-items: space-evenly;
   justify-items: stretch;
-  justify-content: space-evenly;
+  justify-content: stretch;
 }
 
-#top{
-  margin-left: 20%;
-}
-
-#restOfIntro{
-  float: right;
-  position: sticky;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .nav li{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-decoration: none;
-    text-align: center;
     display: inline-block;
     background-color: #614051;
     border-radius: 5%;
     padding: 14px 20px;
-    margin-bottom: 4%;
+    padding-top: 80%;
     transition-duration: 0.5s;
     
 }
 
 .nav li:hover{
   background-color: #217498;
-  font-size: 18px;
-  transition-duration: 0.5s;
   cursor: default;
 }
 
@@ -97,6 +92,18 @@ cursor: default;
   height: 100%;
   width: 100%;
   color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  transition-duration: 0.25s;
+  color: navajowhite;
+}
+
+#contactA{
+  padding-left: 15px;
 }
 
 
@@ -134,8 +141,8 @@ h2:hover{
 }
 
 #everythingElse{
-  float: right;
-  margin-left: 15%;
+  margin-left: 12%;
+  padding: 1%;
 }
 
 
@@ -183,7 +190,7 @@ h2:hover{
 }
 
 .comment{
-  width: 100%;
+  width: 50%;
 }
 
 .SubmitButton{
@@ -205,8 +212,76 @@ h2:hover{
   transform: scale(1.02);
 }
 
+@media only screen and (max-width: 745px) {
+  .nav{
+    background-color: rgb(97, 64, 81);
+    z-index: 10;
+    display: inline-flex;
+    position: fixed;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 
-@media only screen and (max-width: 1168px) {
+  .nav li{
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: #614051;
+    border-radius: 5%;
+    padding: 14px 20px;
+    transition-duration: 0.5s;
+  }
+
+  .nav li a {
+    height: 100%;
+    width: 100%;
+    color: azure;
+  }
+
+  #navigation{
+    display: contents;
+  }
+
+  #everythingElse{
+    margin-left: 0%;
+  }
+
+}
+
+@media only screen and (max-width: 558px){
+
+  .nav li{
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+
+}
+
+@media only screen and (max-width: 492px){
+  
+    .nav li{
+      margin-right: 0.8%;
+      margin-left: 0.8%;
+    }
+
+    .nav li a{
+      font-size: 0.7em;
+    }
+  
+  }
+  
+
+
+/* @media only screen and (max-width: 1168px) {
     .nav li {
       margin-left: 4%;
       margin-right: 4%;
@@ -267,4 +342,4 @@ h2:hover{
         font-size: 20px;
     }
   }
-
+ */
