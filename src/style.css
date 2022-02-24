@@ -30,6 +30,7 @@ html, body{
 
 .nav{
   display: grid;
+  height: 100vh;
   align-content: stretch;
   justify-content: space-evenly;
   align-items: stretch;
@@ -216,6 +217,7 @@ h2:hover{
   .nav{
     background-color: rgb(97, 64, 81);
     z-index: 10;
+    height: 5.4vh;
     display: inline-flex;
     position: fixed;
     list-style-type: none;
