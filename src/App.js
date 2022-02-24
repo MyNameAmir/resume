@@ -54,6 +54,7 @@ class App extends React.Component {
                         <div id="restOfIntro">
                             <img className="circularImage" width="120px" height="120px" src="amir.png" alt="main image" />
                             <h1>Amir Moin</h1>
+                            <span className='pulse-button'><a id="pulseA" href="#about">Start Here</a></span>
                         </div>
                     </div>
                     <h2 id="about"><strong><i>A</i></strong> little bit about myself</h2>
