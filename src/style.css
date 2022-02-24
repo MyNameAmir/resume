@@ -57,7 +57,6 @@ html, body{
 
 
 #navigation{
-  
   position: fixed;
   background-color: rgb(97, 64, 81);
   left: 0%;
@@ -81,7 +80,7 @@ html, body{
     border-radius: 5%;
     padding: 14px 20px;
     padding-top: 80%;
-    transition-duration: 0.5s;
+    width: 7vw;
     
 }
 
@@ -138,7 +137,7 @@ h2:hover{
 }
 
 #everythingElse{
-  margin-left: 12%;
+  margin-left: 7.2vw;
   padding: 1%;
 }
 
