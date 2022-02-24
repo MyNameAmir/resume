@@ -46,7 +46,7 @@ class App extends React.Component {
                         <li><a href="#about">About</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#future">Future</a></li>
-                        <li id="contactA"><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div id="everythingElse">
