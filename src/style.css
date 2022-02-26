@@ -91,7 +91,7 @@ html, body{
   cursor: default;
 }
 
-.nav li a{
+.nav li div{
   height: 100%;
   width: 100%;
   color: azure;
@@ -100,7 +100,7 @@ html, body{
   text-decoration: none;
 }
 
-.nav li a:hover{
+.nav li div:hover{
   transition-duration: 0.25s;
   color: navajowhite;
 }
@@ -305,7 +305,7 @@ span a:hover {
     transition-duration: 0.5s;
   }
 
-  .nav li a {
+  .nav li div {
     height: 100%;
     width: 100%;
     color: azure;
@@ -338,7 +338,7 @@ span a:hover {
       margin-left: 0.8%;
     }
 
-    .nav li a{
+    .nav li div{
       font-size: 0.7em;
     }
   
