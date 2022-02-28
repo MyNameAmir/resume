@@ -53,19 +53,20 @@ class App extends React.Component {
        
         switch (event.target.innerHTML.toLowerCase()){
             case 'about':
-                document.getElementById('about').scrollIntoView(true);
+                document.getElementById('about').scrollIntoView({behavior: "smooth"});
+                console.log("about")
                 break;
             case 'home':
-                window.scrollTo(0, this.homeRef.current);
+                document.getElementById('home').scrollIntoView({behavior: "smooth"});
                 break;
             case 'work':
-                document.getElementById('work').scrollIntoView(true);
+                document.getElementById('work').scrollIntoView({behavior: "smooth"});
                 break;  
             case 'future':
-                document.getElementById('future').scrollIntoView(true);
+                document.getElementById('future').scrollIntoView({behavior: "smooth"});
                 break; 
             case 'contact':
-                document.getElementById('contact').scrollIntoView(true);
+                document.getElementById('contact').scrollIntoView({behavior: "smooth"});
                 break; 
         }
   
