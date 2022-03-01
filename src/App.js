@@ -76,10 +76,12 @@ class App extends React.Component {
 
     render() {
 
-
+        let scrollStyle = {
+            scrollBehavior: "smooth"
+        }
 
         return <>
-            <div className="wrapper">
+            <div className="wrapper" style={scrollStyle}>
                 <div id="navigation">
                     <ul className="nav">
                         {/* <li><a href="#top">Home</a></li>
