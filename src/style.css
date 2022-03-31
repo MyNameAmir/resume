@@ -24,7 +24,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #1f6786;
+  background: rgb(0, 130, 130);
   display: block;
   position: absolute;
   right: 0;
@@ -130,7 +130,7 @@ html:focus-within {
     display: inline-block;
     background-color: rgb(0, 112, 112);
     border-radius: 5%;
-    padding: 14px 20px;
+    /* padding: 14px 20px; */
     padding-top: 80%;
     width: 7vw;
     
@@ -146,13 +146,13 @@ html:focus-within {
   width: 100%;
   color: azure;
   font-family: sans-serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-decoration: none;
 }
 
 .nav li div:hover{
   transition-duration: 0.25s;
-  color: #217498;
+  font-size: 0.9em;
 }
 
 h1:hover{
@@ -278,7 +278,7 @@ h2:hover{
   display: block;
   width: 100px;
   height: 100px;
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-weight: light;
   font-family: 'Trebuchet MS', sans-serif;
   text-transform: uppercase;
@@ -288,7 +288,7 @@ h2:hover{
   color: white;
   border: none;
   border-radius: 50%;
-  background: #217498;
+  background: rgb(0, 130, 130);
   cursor: pointer;
   box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
   animation: pulse 1.5s infinite;
