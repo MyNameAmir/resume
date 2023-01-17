@@ -123,11 +123,11 @@ class App extends React.Component {
                         <img className="linearImage" width="100%" src="image1.png" alt="image" />
                         <h2 id="work" ref={this.workRef}><strong><i>A</i></strong> little bit about my previous work</h2>
                         <p className="para"><strong>As</strong> I previously mentioned, I have worked with HTML, CSS, JS, React framework and Node.js. and with those tools I have created
-                            2 projects and this exact page you are on. The first project I would like to show you is the <a className="inParagraphA" href="http://travellinglog.herokuapp.com/" target="_blank">travellinglog</a> where
+                            2 projects and this exact page you are on. The first project I would like to show you is the <a className="inParagraphA" href="https://travellinglog.onrender.com" target="_blank">travellinglog</a> where
                             you can access this single page app and talk about the countries you have visited and upload images of the place you have been to so you can showcase to the world. It is
                             very simple to use and I would like you to have a look at it for yourself! It is made with Node.js as the back end, and a react front end with mongoDB database access to store comments and images.</p>
                         <img className="linearImage" width="100%" src="image5.png" alt="image" />
-                        <p className="para"><strong>Second</strong> work I would like to talk to you about is my <a className="inParagraphA" href="https://wallgraffiti.herokuapp.com/" target="_blank">wallgrafitti</a> page. This
+                        <p className="para"><strong>Second</strong> work I would like to talk to you about is my <a className="inParagraphA" href="https://wallcomments.onrender.com" target="_blank">wallgrafitti</a> page. This
                             single page app also uses Node.js as the back end and a react framework for the front end with MongoDB database capabilities. The purpose of this app is to have a blank canvas at the start and to have the
                             visitors of the page leave comments on the wall with various fonts and sizes and colours (just like how you would grafitti on a wall, but legal this time!). I hope you
                             enjoyed my work so far!</p>
