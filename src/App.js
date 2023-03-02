@@ -133,7 +133,7 @@ class App extends React.Component {
                             enjoyed my work so far!</p>
                         <img className="linearImage" width="100%" src="image2.png" alt="image" />
 
-                        <p className="para"><strong>Third</strong> work I would like to talk to you about is my <a className="inParagraphA" href="https://tasks-manager2.herokuapp.com/" target="_blank">task manager</a> page. This
+                        <p className="para"><strong>Third</strong> work I would like to talk to you about is my <a className="inParagraphA" href="https://taskmanager-k07g.onrender.com/" target="_blank">task manager</a> page. This
                             single page app also uses Node.js as the back end and a react framework for the front end with bootstrap as the main styling component. The purpose of this app is that the users
                             can manage and track any tasks that they encounter daily and each user can manage their own persons on this app and assign tasks to them. And you can remove tasks on this app
                             once a task is achieved.</p>
